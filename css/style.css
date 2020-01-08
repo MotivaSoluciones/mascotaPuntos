@@ -13931,3 +13931,24 @@ sup {
     right: 0;
     top: -70px;
 }
+
+@media (max-width:650px) {
+	.nav-tabs{
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.tab-flex{
+		display: block;
+	}
+	.pos-ab{
+		position: static;
+		right: 0;
+		top: 0;
+	}
+	.text-center{
+		margin: 50px 0px;
+	}
+
+
+}

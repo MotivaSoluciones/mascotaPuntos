@@ -13923,3 +13923,13 @@ sup {
 	display: flex;
 	justify-content: space-between;
 }
+
+
+@media (max-width:650px) {
+	.name-user{
+		color: #fff;
+	}
+	.column-1 a{
+		color: #767676;
+	}
+}

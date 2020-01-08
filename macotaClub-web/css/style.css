@@ -2345,7 +2345,7 @@ header .icon-entry .text b {
 	}
 
 	#content-block header {
-		background-color: #000;
+		background-color: #45a3b3;
 		position: fixed;
 		padding: 0 30px;
 		top: 0;
@@ -13361,7 +13361,7 @@ form div {
 		background-position: -700px 0!important;
 	}
 	.login-box {
-		width: 100%;
+		width: 100% !important;
 		padding: 20px 25px;
 	}
 	.popup-container {
@@ -13934,4 +13934,49 @@ sup {
 
 .back-img{
 	position: relative;
+}
+
+.item-center{
+	margin: 0 auto 60px;
+	max-width: 650px;
+    width: 100%;
+    padding: 30px 20px 30px;
+    border-radius: 10px;
+}
+
+.marg-center{
+	margin: 30px 0px 20px;
+}
+.text-point{
+	text-align: center;
+	font-size: 23px;
+}
+
+.border-r{
+	border: none !important;
+}
+
+.box-butt{
+	margin: auto;
+    width: 36px;
+    border: 1px solid;
+    border-radius: 23px;
+}
+
+.img-add{
+	width: 25px;
+    display: block;
+    margin: 4px;
+}
+
+@media (max-width:650px) {
+	.img-prrcat{
+		display: none;
+	}
+	.name-user{
+		color: #fff;
+	}
+	.column-1 a{
+		color: #767676;
+	}
 }
