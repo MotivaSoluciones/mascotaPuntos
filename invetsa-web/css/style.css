@@ -991,7 +991,7 @@ nav > ul > li {
 nav > ul > li > a {
 	font-weight: 600;
 	white-space: nowrap;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 62px;
 	text-transform: uppercase;
 	display: inline-block;
@@ -1033,8 +1033,9 @@ nav > ul > li > .fa {
 
 nav > ul > li > a:hover,
 nav > ul > li > a.active {
-	color: #000;
+	text-decoration: underline;
 	cursor: pointer;
+	font-weight: 600;
 }
 
 .column-1 a {
@@ -2832,7 +2833,7 @@ footer#footer ul {
 }
 
 footer#footer img {
-	height: 70px;
+	height: 25px;
 }
 
 footer#footer {
@@ -4009,6 +4010,7 @@ footer {
 }
 
 .popup-container .code {
+	display: block;
 	margin-top: 0px;
 	margin-bottom: 14px;
 }
@@ -7714,10 +7716,10 @@ h2.title-subpage {
 .product-description,
 p,
 .article-container ul li {
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 20px;
-	color: #9a9a9a;
 	margin-bottom: 10px;
+	color: #9a9a9a;
 	font-family: "Open Sans", sans-serif;
 }
 
@@ -7764,7 +7766,6 @@ p,
 	font-size: 16px;
 	color: #666;
 	font-weight: 600;
-	text-decoration: line-through;
 }
 
 .col-sm-6 .product-detail-box .info-qty {
@@ -11327,7 +11328,7 @@ select[value="0"] {
 
 .mis_puntos .todos_mispuntos {
 	background-image: url(../img/casilla_1.png);
-	background-color: #fff;
+	background-color: #5A5A96;
 }
 
 .mis_puntos .box-colors {
@@ -11340,25 +11341,25 @@ select[value="0"] {
 }
 
 .box-colors .block_color:nth-child(1) a {
-	background: #0f8473;
+	background: #5A5A96;
 }
 
 .mis_puntos .puntos_disponibles {
 	background-image: url(../img/casilla_2.png);
-	background-color: #fff;
+	background-color: #5A89A6;
 }
 
 .box-colors .block_color:nth-child(2) a {
-	background: #83a537;
+	background: #5A89A6;
 }
 
 .mis_puntos .puntos_canjeados {
 	background-image: url(../img/casilla_3.png);
-	background-color: #fff;
+	background-color: #88CAF7;
 }
 
 .box-colors .block_color:nth-child(3) a {
-	background: #570782;
+	background: #88CAF7;
 }
 
 .mis_puntos .puntos_pendientes {
@@ -13855,7 +13856,7 @@ sup {
 	background: #fff;
 	border: 1px solid #e0e0e0;
 	border-radius: 4px;
-	width: 280px;
+	width: 220px;
 }
 
 .buscar {
@@ -13874,7 +13875,6 @@ sup {
 }
 
 .price-hsbc {
-	background: url(../img/letra-logo.png) no-repeat;
 	background-size: 70px;
 	background-position: right;
 	border-radius: 5px;
@@ -13882,13 +13882,13 @@ sup {
 }
 
 .price-hsbc span {
-	font-size: 16px;
+	font-size: 18px;
 	color: #000;
 	font-weight: 600;
 }
 
 .info-price {
-	margin: 15px 0;
+	margin: 0px 0 20px;
 }
 
 .p_border {
@@ -13932,4 +13932,25 @@ sup {
 	.column-1 a{
 		color: #767676;
 	}
+}
+
+.dis-flex{
+	display: flex;
+	align-items: center;
+}
+.mrg-left{
+	margin-left: 15px;
+}
+
+.wid-img{
+	width: 100%;
+	height: 240px;
+}
+
+.mrg-bott{
+	margin-bottom: 30px;
+}
+
+.mrg-top30{
+	margin-top: 30px;
 }

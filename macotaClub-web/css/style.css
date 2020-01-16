@@ -458,8 +458,8 @@ body {
 /*Boton gris fucsia*/
 
 .button.style-10 {
-	border: 1px solid #bf3360;
-	background: #bf3360;
+	border: 1px solid #DD2771;
+	background: #DD2771;
 
 	transition: all 0.5s ease-out 0s;
 }
@@ -467,15 +467,15 @@ body {
 .button.style-10:hover {
 	background: #fff;
 	color: #333;
-	border: 1px solid #bf3360;
+	border: 1px solid #DD2771;
 }
 
 /*Boton verde login*/
 
 .button.style-3 {
-	background: #bf3360;
+	background: #DD2771;
 	color: #333;
-	border: 2px solid #bf3360;
+	border: 2px solid #DD2771;
 }
 
 .button.style-3:hover {
@@ -689,7 +689,7 @@ ol li:before {
 	vertical-align: middle;
 	width: 15px;
 	height: 15px;
-	background: #bf3360;
+	background: #DD2771;
 	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
@@ -760,7 +760,7 @@ ol li:before {
 
 .check:after {
 	content: url(../img/icons/icon-check.png);
-	background: #bf3360;
+	background: #DD2771;
 	position: absolute;
 	right: 0;
 	overflow: hidden;
@@ -919,7 +919,7 @@ header {
 	z-index: 5;
 	width: 1200px;
 	margin: 0 auto;
-	height: 77px
+	height: 82px
 }
 
 header.fixed-header .nav-overflow {
@@ -1034,7 +1034,7 @@ nav > ul > li > .fa {
 
 nav > ul > li > a:hover,
 nav > ul > li > a.active {
-	color: #000;
+	color: #DD2771;
 	cursor: pointer;
 }
 
@@ -1758,7 +1758,7 @@ a.open-cart-popup {
 }
 
 a.open-cart-popup .count {
-	background-color: #bf3360;
+	background-color: #DD2771;
 	border-radius: 50%;
 	bottom: 12px;
 	color: #fff;
@@ -2835,11 +2835,11 @@ footer#footer ul {
 }
 
 footer#footer img {
-	height: 70px;
+	height: 25px;
 }
 
 footer#footer {
-	background-color: #bf3360;
+	background-color: #DD2771;
 	padding: 10px 0;
 }
 
@@ -4012,6 +4012,7 @@ footer {
 }
 
 .popup-container .code {
+	display: block;
 	margin-top: 0px;
 	margin-bottom: 14px;
 }
@@ -7767,7 +7768,6 @@ p,
 	font-size: 16px;
 	color: #666;
 	font-weight: 600;
-	text-decoration: line-through;
 }
 
 .col-sm-6 .product-detail-box .info-qty {
@@ -9744,7 +9744,7 @@ body.error_404 {
 .remove-button:hover {
 	background: #fff;
 	color: #7a7b7b;
-	border: 1px #bf3360 solid;
+	border: 1px #DD2771 solid;
 }
 
 .wishlist-entry .column-2 .remove-button {
@@ -9927,7 +9927,7 @@ body.error_404 {
 }
 
 .cart-table span.addcart {
-	background: #bf3360;
+	background: #DD2771;
 	width: 40px;
 	display: block;
 	height: 40px;
@@ -9940,9 +9940,9 @@ body.error_404 {
 }
 
 .cart-table span.addcart:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
-	border: 1px solid #bf3360;
+	border: 1px solid #DD2771;
 	cursor: pointer;
 }
 
@@ -11330,7 +11330,7 @@ select[value="0"] {
 
 .mis_puntos .todos_mispuntos {
 	background-image: url(../img/casilla_1.png);
-	background-color: #fff;
+	background-color: #00BDC6;
 }
 
 .mis_puntos .box-colors {
@@ -11343,25 +11343,25 @@ select[value="0"] {
 }
 
 .box-colors .block_color:nth-child(1) a {
-	background: #0f8473;
+	background: #00B3BC;
 }
 
 .mis_puntos .puntos_disponibles {
 	background-image: url(../img/casilla_2.png);
-	background-color: #fff;
+	background-color: #EA3672;
 }
 
 .box-colors .block_color:nth-child(2) a {
-	background: #83a537;
+	background: #D84C7B;
 }
 
 .mis_puntos .puntos_canjeados {
 	background-image: url(../img/casilla_3.png);
-	background-color: #fff;
+	background-color: #04d95a;
 }
 
 .box-colors .block_color:nth-child(3) a {
-	background: #570782;
+	background: #00C951;
 }
 
 .mis_puntos .puntos_pendientes {
@@ -12559,7 +12559,7 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 @media(min-width: 768px) {
 	#login-popup .popup-container,
 	#bienvenida-popup .popup-container {
-		max-width: 600px;
+		max-width: 550px;
 		position: relative;
 		text-align: center;
 	}
@@ -13523,7 +13523,7 @@ span.help-block {
 }
 
 .white .banner-info-text .puntos {
-	color: #bf3360;
+	color: #DD2771;
 	font-weight: 600;
 	font-size: 26px;
 	display: inline-block;
@@ -13637,7 +13637,7 @@ span.help-block {
 .info-header li.info-pts span {
 	font-size: 16px;
 	font-weight: 700;
-	color: #bf3360;
+	color: #DD2771;
 	margin: 0 4px;
 }
 
@@ -13852,7 +13852,7 @@ sup {
 	background: #fff;
 	border: 1px solid #e0e0e0;
 	border-radius: 4px;
-	width: 280px;
+	width: 220px;
 }
 
 .buscar {
@@ -13871,7 +13871,6 @@ sup {
 }
 
 .price-hsbc {
-	background: url(../img/logo.png) no-repeat;
 	background-size: 70px;
 	background-position: right;
 	border-radius: 5px;
@@ -13885,7 +13884,7 @@ sup {
 }
 
 .info-price {
-	margin: 15px 0;
+	margin: 0px 0 20px;
 }
 
 .p_border {
@@ -13906,7 +13905,7 @@ sup {
 
 .dscto {
 	font-weight: 600;
-	color: #bf3360;
+	color: #DD2771;
 	margin-top: 10px;
 }
 
@@ -13937,7 +13936,7 @@ sup {
 }
 
 .item-center{
-	margin: 0 auto 60px;
+	margin: 60px auto 50px;
 	max-width: 650px;
     width: 100%;
     padding: 30px 20px 30px;
@@ -13962,6 +13961,15 @@ sup {
     border: 1px solid;
     border-radius: 23px;
 }
+.butt-add{
+	display: flex;
+    width: 45px !important;
+    background-color: #fff;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 37px;
+    padding: 10px 10px;
+}
 
 .img-add{
 	width: 25px;
@@ -13979,4 +13987,48 @@ sup {
 	.column-1 a{
 		color: #767676;
 	}
+}
+
+.dis-flex{
+	display: flex;
+	align-items: center;
+}
+.mrg-left{
+	margin-left: 15px;
+}
+
+.wid-img{
+	width: 100%;
+	height: 240px;
+}
+
+.mrg-bott{
+	margin-bottom: 30px;
+}
+
+.mrg-top30{
+	margin-top: 30px;
+}
+
+.txt-cent{
+	text-align: center;
+}
+.cont-spc{
+	border-radius: 10px;
+	width: 420px !important;
+}
+.wid-img100{
+	width: 100px;
+}
+.fnt-weig{
+	font-weight: 600 !important;
+}
+.fnt-25{
+	font-size: 25px !important;
+}
+
+.bord-padd{
+	border-top: 2px solid #e2e2e2;
+    margin-top: 20px;
+    padding-top: 20px;
 }

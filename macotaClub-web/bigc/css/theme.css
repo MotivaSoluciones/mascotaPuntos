@@ -2343,7 +2343,7 @@ Page Detail
 }
 
 .blue-light {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 }
 
 .blue-ocean {
@@ -2351,7 +2351,7 @@ Page Detail
 }
 
 .info-qty {
-	/*	background-color: #bf3360;*/
+	/*	background-color: #DD2771;*/
 	border: 1px solid #e5e5e5;
 	border-radius: 5px;
 	height: 40px;
@@ -2769,7 +2769,7 @@ Page Grid
 
 .product-pagi-nav a.active,
 .product-pagi-nav a:hover {
-	color: #bf3360;
+	color: #DD2771;
 
 	box-shadow: 0 2px 4px 1px rgba(0, 0, 0, 0.1);
 	/*    background-color:#0f2e4d;*/
@@ -2879,12 +2879,12 @@ Page Grid Mr
 }
 
 .ui-slider-range.ui-widget-header.ui-corner-all {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 }
 
 .ui-slider-handle.ui-state-default.ui-corner-all {
 	background: #fff none repeat scroll 0 0;
-	border: 2px solid #bf3360;
+	border: 2px solid #DD2771;
 	border-radius: 0;
 	height: 10px;
 	margin: 0 0 0 -5px;
@@ -4205,16 +4205,16 @@ Page Product List Mr
 }
 
 .item-contact-box {
-	color: #bf3360;
+	color: #DD2771;
 	display: inline-block;
 	min-width: auto;
 	vertical-align: middle;
 }
 
 .item-contact-box > a {
-	border: 1px solid #bf3360;
+	border: 1px solid #DD2771;
 	border-radius: 50%;
-	color: #bf3360;
+	color: #DD2771;
 	display: inline-block;
 	height: 55px;
 	margin-right: 5px;
@@ -4273,7 +4273,7 @@ Page Product List Mr
 }
 
 .contact-form > h2 {
-	color: #bf3360;
+	color: #DD2771;
 	font-size: 16px;
 	margin: 20px 0 0;
 	text-transform: uppercase;
@@ -4293,7 +4293,7 @@ Page Product List Mr
 }
 
 .btn-submit-form {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 4px;
 	color: #fff;
@@ -4306,11 +4306,11 @@ Page Product List Mr
 }
 
 .btn-submit-form:hover {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 }
 
 .btn-reset-form {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 4px;
 	color: #fff;
@@ -4322,7 +4322,7 @@ Page Product List Mr
 }
 
 .btn-reset-form:hover {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 }
 
 /*******************************************************************
@@ -4384,7 +4384,7 @@ Page Product List Mr
 }
 
 .blue-box {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 }
 
 .dark-yellow-box {
@@ -4520,7 +4520,7 @@ Page Product List Mr
 }
 
 .post-social-network a:hover {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	color: #fff;
 }
 
@@ -4551,7 +4551,7 @@ Page Product List Mr
 
 .post-slider .owl-theme .owl-controls .owl-buttons div:hover {
 	box-shadow: none;
-	background: #bf3360;
+	background: #DD2771;
 	color: #333;
 }
 
@@ -4602,7 +4602,7 @@ Page Product List Mr
 }
 
 .info-customer-saying h3 a {
-	color: #bf3360;
+	color: #DD2771;
 	font-size: 16px;
 }
 
@@ -4675,7 +4675,7 @@ Page Product List Mr
 }
 
 .newsletter-form input[type="text"] {
-	border: 1px solid #bf3360;
+	border: 1px solid #DD2771;
 	border-radius: 4px;
 	color: #999;
 	height: 40px;
@@ -4690,7 +4690,7 @@ Page Product List Mr
 }
 
 .newsletter-form input[type="submit"] {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 4px;
 	color: #fff;
@@ -5241,7 +5241,7 @@ Page Product List Mr
 }
 
 .box-header-intro a {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .box-header-intro label {
@@ -5407,7 +5407,7 @@ Page Product List Mr
 	top: 0;
 	left: 50%;
 	content: "";
-	background: #bf3360;
+	background: #DD2771;
 	opacity: 0;
 	transition: all 0.5s ease-out 0s;
 }
@@ -5494,7 +5494,7 @@ Page Product List Mr
 	top: 0;
 	left: 0;
 	content: "";
-	background: #bf3360;
+	background: #DD2771;
 	opacity: 0;
 	transition: all 0.5s ease-out 0s;
 }
@@ -5539,7 +5539,7 @@ Page Product List Mr
 }
 
 .item-message-box.item-message-info {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	color: #fff;
 }
 
@@ -5697,7 +5697,7 @@ Page Product List Mr
 .feature-box-style-08 .feature-box-link {
 	border: 1px solid #1b1d1f;
 	color: #1b1d1f;
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .feature-box-style-09 .feature-box-link {
@@ -5706,14 +5706,14 @@ Page Product List Mr
 }
 
 .feature-box-style-10 .feature-box-link {
-	border: 1px solid #bf3360;
+	border: 1px solid #DD2771;
 	color: #fff;
 	border-radius: 50%;
 }
 
 .feature-box-style-10 .feature-box-link::before {
 	position: absolute;
-	background: #bf3360;
+	background: #DD2771;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -5755,11 +5755,11 @@ Page Product List Mr
 	color: #fff;
 	border-radius: 0px;
 	margin-top: -35px;
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .feature-box-style-12 .readmore {
-	color: #bf3360
+	color: #DD2771
 }
 
 .feature-box-style-12 {
@@ -5769,13 +5769,13 @@ Page Product List Mr
 }
 
 .feature-box-style-13 {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border-radius: 4px;
 	padding: 40px 30px;
 }
 
 .feature-box-style-13 .feature-box-link {
-	color: #bf3360;
+	color: #DD2771;
 	border-radius: 50%;
 	background: #fff;
 }
@@ -5798,11 +5798,11 @@ Page Product List Mr
 .feature-box-style-14 .feature-box-link {
 	color: #fff;
 	border-radius: 0;
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .feature-box-style-14 .feature-box-info h3 a {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 /***********************************************************************
@@ -5848,7 +5848,7 @@ Page Product List Mr
 }
 
 #chart-4 {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 #chart-4 .circles-text {
@@ -5872,7 +5872,7 @@ Page Product List Mr
 }
 
 #chart-7 {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 #chart-7 .circles-text {
@@ -5884,7 +5884,7 @@ Page Product List Mr
 }
 
 #chart-8 .circles-text {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 /*Progressbar*/
@@ -5929,7 +5929,7 @@ Page Product List Mr
 }
 
 .list-chart-processbar #progressbar-2.ui-progressbar .ui-progressbar-value {
-	background: #bf3360;
+	background: #DD2771;
 	border-radius: 0;
 }
 
@@ -5949,7 +5949,7 @@ Page Product List Mr
 }
 
 .list-chart-processbar #progressbar-4.ui-progressbar .ui-progressbar-value {
-	background: #bf3360;
+	background: #DD2771;
 	border-radius: 0;
 }
 
@@ -5969,7 +5969,7 @@ Page Product List Mr
 }
 
 .list-chart-processbar #progressbar-6.ui-progressbar .ui-progressbar-value {
-	background: #bf3360;
+	background: #DD2771;
 	border-radius: 4;
 }
 
@@ -5989,7 +5989,7 @@ Page Product List Mr
 }
 
 .list-chart-processbar #progressbar-8.ui-progressbar .ui-progressbar-value {
-	background: #bf3360;
+	background: #DD2771;
 	border-radius: 4;
 }
 
@@ -6024,8 +6024,8 @@ Page Product List Mr
 }
 
 #target1 .pie0 {
-	background-color: #bf3360;
-	fill: #bf3360;
+	background-color: #DD2771;
+	fill: #DD2771;
 }
 
 #target1 .pie1 {
@@ -6059,8 +6059,8 @@ Page Product List Mr
 }
 
 #target4 .pie1 {
-	background-color: #bf3360;
-	fill: #bf3360;
+	background-color: #DD2771;
+	fill: #DD2771;
 }
 
 #target5 .pie0 {
@@ -6292,7 +6292,7 @@ Page Product List Mr
 }
 
 .bt-blue {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
@@ -6323,48 +6323,48 @@ Page Product List Mr
 }
 
 .bt-style21:hover {
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	background: #fff;
 }
 
 .bt-style21:hover span {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style26 {
 	width: 140px;
 	background: #fff;
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	padding: 0;
 }
 
 .bt-style26:hover {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style26 span {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style22:hover {
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	background: #fff;
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .bt-style27 {
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	background: #fff;
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .bt-style27:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
 .bt-style23:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #1b1d1f;
 	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.3);
 }
@@ -6374,21 +6374,21 @@ Page Product List Mr
 }
 
 .bt-gold {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style28:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 	box-shadow: none;
 }
 
 .bt-style24:hover {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style29:hover {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style25 {
@@ -6397,7 +6397,7 @@ Page Product List Mr
 
 .bt-style25:hover {
 	box-shadow: none;
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
@@ -6413,27 +6413,27 @@ Page Product List Mr
 }
 
 .bt-style31 span {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style31:hover {
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	background: #1b1d1f;
 }
 
 .bt-style36 {
 	width: 140px;
 	padding: 0;
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	background: #1b1d1f;
 }
 
 .bt-style36 span {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style36:hover {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style32 {
@@ -6453,25 +6453,25 @@ Page Product List Mr
 }
 
 .bt-style33 {
-	box-shadow: 0 0 0 1px #bf3360 inset;
-	color: #bf3360;
+	box-shadow: 0 0 0 1px #DD2771 inset;
+	color: #DD2771;
 }
 
 .bt-style33:hover {
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	color: #1b1d1f;
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style38 {
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	color: #1b1d1f;
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .bt-style38:hover {
-	box-shadow: 0 0 0 1px #bf3360 inset;
-	color: #bf3360;
+	box-shadow: 0 0 0 1px #DD2771 inset;
+	color: #DD2771;
 	background: #1b1d1f;
 }
 
@@ -6494,15 +6494,15 @@ Page Product List Mr
 }
 
 .bt-style35:hover {
-	color: #bf3360;
+	color: #DD2771;
 	background: #1b1d1f;
-	box-shadow: 0 0 0 2px #bf3360 inset;
+	box-shadow: 0 0 0 2px #DD2771 inset;
 }
 
 .bt-style40 {
-	color: #bf3360;
+	color: #DD2771;
 	background: #1b1d1f;
-	box-shadow: 0 0 0 2px #bf3360 inset;
+	box-shadow: 0 0 0 2px #DD2771 inset;
 }
 
 .bt-style40:hover {
@@ -6743,17 +6743,17 @@ Page Product List Mr
 }
 
 .link-style13:hover {
-	border-bottom: 1px solid #bf3360;
-	border-top: 1px solid #bf3360;
+	border-bottom: 1px solid #DD2771;
+	border-top: 1px solid #DD2771;
 	text-decoration: none;
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .link-style18 {
 	text-decoration: none;
-	border-bottom: 1px solid #bf3360;
-	border-top: 1px solid #bf3360;
-	color: #bf3360;
+	border-bottom: 1px solid #DD2771;
+	border-top: 1px solid #DD2771;
+	color: #DD2771;
 }
 
 .link-style18:hover {
@@ -6916,7 +6916,7 @@ Page Product List Mr
 }
 
 .btn-circle-box1 a {
-	background: #bf3360;
+	background: #DD2771;
 	color: #666;
 }
 
@@ -6926,7 +6926,7 @@ Page Product List Mr
 
 /*
 .btn-circle-box1 a:hover {
-	background-color: #bf3360;
+	background-color: #DD2771;
 }
 */
 
@@ -6935,16 +6935,16 @@ Page Product List Mr
 }
 
 .btn-circle-box11 a {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
 .btn-circle-box11 .link-add-cart {
-	background: #bf3360 url("../images/icon-cart.png") no-repeat center center;
+	background: #DD2771 url("../images/icon-cart.png") no-repeat center center;
 }
 
 .btn-circle-box11 a:hover {
-	background-color: #bf3360;
+	background-color: #DD2771;
 }
 
 .btn-circle-box11 .link-wishlist:hover span {
@@ -7030,7 +7030,7 @@ Page Product List Mr
 }
 
 .btn-circle-box3 .link-quick-view {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
@@ -7044,17 +7044,17 @@ Page Product List Mr
 }
 
 .btn-circle-box33 .link-quick-view:hover {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .btn-circle-box4 a {
 	background: #fff;
-	color: #bf3360;
+	color: #DD2771;
 	box-shadow: 0 0 0 1px #e5e5e5 inset;
 }
 
 .btn-circle-box4 .link-add-cart {
-	background: #bf3360 url("../images/icon-cart.png") no-repeat center center;
+	background: #DD2771 url("../images/icon-cart.png") no-repeat center center;
 	box-shadow: none;
 }
 
@@ -7068,12 +7068,12 @@ Page Product List Mr
 }
 
 .btn-circle-box4 .link-wishlist:hover {
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 }
 
 .btn-circle-box4 .link-compare:hover {
-	box-shadow: 0 0 0 1px #bf3360 inset;
-	background-color: #bf3360;
+	box-shadow: 0 0 0 1px #DD2771 inset;
+	background-color: #DD2771;
 	color: #fff;
 }
 
@@ -7082,13 +7082,13 @@ Page Product List Mr
 }
 
 .btn-circle-box44 .link-add-cart:hover {
-	background-color: #bf3360;
+	background-color: #DD2771;
 }
 
 .btn-circle-box44 .link-wishlist {
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 	background: #fff;
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .btn-circle-box44 .link-wishlist:hover {
@@ -7096,14 +7096,14 @@ Page Product List Mr
 }
 
 .btn-circle-box44 .link-compare {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
 .btn-circle-box44 .link-compare:hover {
 	box-shadow: 0 0 0 1px #e5e5e5 inset;
 	background: #fff;
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .list-button-circle {
@@ -7135,11 +7135,11 @@ Page Product List Mr
 }
 
 .btn-circle-box5 .link-add-cart {
-	background: #bf3360 url("../images/icon-cart.png") no-repeat center center;
+	background: #DD2771 url("../images/icon-cart.png") no-repeat center center;
 }
 
 .btn-circle-box5 .link-add-cart:hover {
-	background-color: #bf3360;
+	background-color: #DD2771;
 }
 
 .btn-circle-box5 .link-add-cart:hover::before {
@@ -7165,12 +7165,12 @@ Page Product List Mr
 
 .btn-circle-box5 .link-wishlist {
 	background: #fff;
-	box-shadow: 0 0 0 1px #bf3360 inset;
-	color: #bf3360;
+	box-shadow: 0 0 0 1px #DD2771 inset;
+	color: #DD2771;
 }
 
 .btn-circle-box5 .link-wishlist:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 	box-shadow: 0 0 0 1px transparent inset;
 }
@@ -7180,21 +7180,21 @@ Page Product List Mr
 }
 
 .btn-circle-box5 .link-compare {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
 .btn-circle-box5 .link-compare:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #1b1d1f;
 }
 
 .btn-circle-box55 .link-add-cart {
-	background: #bf3360 url("../images/icon-cart.png") no-repeat center center;
+	background: #DD2771 url("../images/icon-cart.png") no-repeat center center;
 }
 
 .btn-circle-box55 .link-add-cart:hover {
-	background-color: #bf3360;
+	background-color: #DD2771;
 }
 
 .btn-circle-box55 .link-add-cart:hover::before {
@@ -7219,15 +7219,15 @@ Page Product List Mr
 }
 
 .btn-circle-box55 .link-wishlist {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 	box-shadow: 0 0 0 1px transparent inset;
 }
 
 .btn-circle-box55 .link-wishlist:hover {
 	background: #fff;
-	color: #bf3360;
-	box-shadow: 0 0 0 1px #bf3360 inset;
+	color: #DD2771;
+	box-shadow: 0 0 0 1px #DD2771 inset;
 }
 
 .btn-circle-box55 .link-wishlist:hover span {
@@ -7235,12 +7235,12 @@ Page Product List Mr
 }
 
 .btn-circle-box55 .link-compare:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
 .btn-circle-box55 .link-compare {
-	background: #bf3360;
+	background: #DD2771;
 	color: #1b1d1f;
 }
 
@@ -7529,7 +7529,7 @@ Page Product List Mr
 }
 
 .accordion-box.style3 .item-accordion.active .title-accordion::before {
-	background: #bf3360 url("../../img/icons/sub1.png") no-repeat scroll center center;
+	background: #DD2771 url("../../img/icons/sub1.png") no-repeat scroll center center;
 }
 
 /***********************************************************************
@@ -7647,13 +7647,13 @@ Page Product List Mr
 }
 
 .banner-rect-info .btn-link-default {
-	background: #bf3360;
+	background: #DD2771;
 	border-radius: 4px;
 	margin-top: 15px;
 }
 
 .banner-rect-info .btn-link-default:hover {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	color: #fff;
 }
 
@@ -7735,7 +7735,7 @@ Page Product List Mr
 
 .banner-slider-circle-hoztical .owl-theme .owl-controls .owl-page.active span,
 .banner-slider-circle-hoztical .owl-theme .owl-controls.clickable .owl-page:hover span {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	opacity: 1;
 }
 
@@ -7793,7 +7793,7 @@ Page Product List Mr
 }
 
 .btn-box-banner {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border-radius: 4px;
 	color: #fff;
 	display: inline-block;
@@ -7805,7 +7805,7 @@ Page Product List Mr
 }
 
 .btn-box-banner:hover {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	color: #fff;
 }
 
@@ -7871,7 +7871,7 @@ Page Product List Mr
 }
 
 .banner-style2 .banner-box-title.banner-box-title-blue {
-	background: #bf3360;
+	background: #DD2771;
 	text-align: center;
 	margin: 0;
 	padding: 2px 15px 5px;
@@ -7881,12 +7881,12 @@ Page Product List Mr
 
 .banner-style2 .title-banner-box-blue {
 	font-size: 48px;
-	color: #bf3360;
+	color: #DD2771;
 	margin: 0;
 }
 
 .banner-style2:hover .banner-box-title.banner-box-title-blue {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .banner-style2 .title-banner-box-black {
@@ -8302,7 +8302,7 @@ Page Product List Mr
 }
 
 .menu-top3 a:hover {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .menu-top3 {
@@ -8330,7 +8330,7 @@ Page Product List Mr
 }
 
 .logo-header3 h1 {
-	color: #bf3360;
+	color: #DD2771;
 	font-size: 48px;
 	margin: 0;
 }
@@ -8380,7 +8380,7 @@ Page Product List Mr
 }
 
 .info-header3 .info-total .info-icon {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border-radius: 6px;
 	color: #fff;
 	display: block;
@@ -8406,7 +8406,7 @@ Page Product List Mr
 }
 
 .box-info-user li a:hover {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .box-info-user li a .lnr {
@@ -8432,7 +8432,7 @@ Page Product List Mr
 }
 
 .language-list li.active a {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .language-list li {
@@ -8445,7 +8445,7 @@ Page Product List Mr
 }
 
 .currency-list li.active a {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .currency-list li {
@@ -8471,11 +8471,11 @@ Page Product List Mr
 }
 
 .search-form.search-form3 .btn-link-default:hover {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .search-form.search-form3 .btn-link-default {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border-radius: 6px;
 	right: 15px;
 	top: 15px;
@@ -8512,7 +8512,7 @@ Page Product List Mr
 }
 
 .logo-footer3 > a {
-	color: #bf3360;
+	color: #DD2771;
 	font-size: 30px;
 	text-transform: uppercase;
 }
@@ -8544,7 +8544,7 @@ Page Product List Mr
 }
 
 .box-menu-footer3 a:hover {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .box-menu-footer3 li {
@@ -8570,7 +8570,7 @@ Page Product List Mr
 }
 
 .menu-footer3 a:hover {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .copyright3 > p {
@@ -8664,7 +8664,7 @@ Page Product List Mr
 }
 
 .nav-tabs-bestsale .filter-product .btn-filter {
-	border-right: 5px solid #bf3360;
+	border-right: 5px solid #DD2771;
 }
 
 .nav-tabs-bestsale .nav-tabs {
@@ -8678,7 +8678,7 @@ Page Product List Mr
 
 .nav-tabs-bestsale .nav-tabs > li > a:hover,
 .nav-tabs-bestsale .nav-tabs > li.active > a {
-	color: #bf3360;
+	color: #DD2771;
 	background: none;
 	border: none;
 	font-weight: 600;
@@ -8710,7 +8710,7 @@ Page Product List Mr
 }
 
 .filter-product .btn-filter.style-border-left::before {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	content: "";
 	height: 100%;
 	left: 0;
@@ -8759,25 +8759,25 @@ Page Product List Mr
 }
 
 .product-best-sale .cart-wishlist-compare .product-wishlist {
-	background: #bf3360;
-	border-color: #bf3360;
+	background: #DD2771;
+	border-color: #DD2771;
 	color: #fff;
 }
 
 .product-best-sale .cart-wishlist-compare .product-wishlist:hover {
-	background: #bf3360;
-	border-color: #bf3360;
+	background: #DD2771;
+	border-color: #DD2771;
 }
 
 .product-best-sale .cart-wishlist-compare .product-compare {
-	background: #bf3360;
-	border-color: #bf3360;
+	background: #DD2771;
+	border-color: #DD2771;
 	color: #fff;
 }
 
 .product-best-sale .cart-wishlist-compare .product-compare:hover {
-	background: #bf3360;
-	border-color: #bf3360;
+	background: #DD2771;
+	border-color: #DD2771;
 }
 
 .product-best-sale .item-product:hover .item-product-thumb {
@@ -8813,7 +8813,7 @@ Page Product List Mr
 .paginav-best-seller a:hover {
 	opacity: 1;
 	background: #fff none repeat scroll 0 0;
-	color: #bf3360;
+	color: #DD2771;
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -8825,7 +8825,7 @@ Page Product List Mr
 	position: absolute;
 	width: 8px;
 	height: 8px;
-	background: #bf3360;
+	background: #DD2771;
 	content: "";
 	top: 0px;
 	left: 14px;
@@ -10000,7 +10000,7 @@ span.click-button {
 ************************************************************************/
 
 .inner-cart-info5.inner-cart-info .link-cart a {
-	background: #bf3360;
+	background: #DD2771;
 	border-radius: 6px;
 }
 
@@ -10010,7 +10010,7 @@ span.click-button {
 
 .partner-home5 .owl-theme .owl-controls .owl-buttons div:hover {
 	color: #333;
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .partner-home5 .owl-theme .owl-controls .owl-buttons div {
@@ -10051,8 +10051,8 @@ span.click-button {
 .nav-tabs-filter .nav-tabs > li.active > a:hover,
 .nav-tabs-filter .nav-tabs > li.active > a:focus,
 .nav-tabs-filter .nav-tabs > li > a:hover {
-	background: #bf3360 none repeat scroll 0 0;
-	border-color: #bf3360;
+	background: #DD2771 none repeat scroll 0 0;
+	border-color: #DD2771;
 	color: #fff;
 }
 
@@ -10121,7 +10121,7 @@ span.click-button {
 }
 
 .item-product-loadmore .open-product {
-	background: #bf3360;
+	background: #DD2771;
 	border-radius: 50%;
 	bottom: 0;
 	color: #fff;
@@ -10163,7 +10163,7 @@ span.click-button {
 }
 
 .item-product-loadmore .title-product a:hover {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .item-product-loadmore .title-product {
@@ -10172,7 +10172,7 @@ span.click-button {
 
 /*
 .item-product-loadmore .info-price span {
-	color: #bf3360;
+	color: #DD2771;
 }
 */
 
@@ -10192,7 +10192,7 @@ span.click-button {
 }
 
 .cart-wishlist-compare .product-add-cart {
-	background: #bf3360 url("../images/icon-cart.png") no-repeat scroll center center;
+	background: #DD2771 url("../images/icon-cart.png") no-repeat scroll center center;
 	border-radius: 50%;
 	display: inline-block;
 	height: 48px;
@@ -10209,7 +10209,7 @@ span.click-button {
 .cart-wishlist-compare .product-wishlist {
 	border: 1px solid #e5e5e5;
 	border-radius: 50%;
-	color: #bf3360;
+	color: #DD2771;
 	display: inline-block;
 	height: 38px;
 	margin-right: 7px;
@@ -10220,15 +10220,15 @@ span.click-button {
 }
 
 .cart-wishlist-compare .product-wishlist:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
-	border-color: #bf3360;
+	border-color: #DD2771;
 }
 
 .cart-wishlist-compare .product-compare {
 	border: 1px solid #e5e5e5;
 	border-radius: 50%;
-	color: #bf3360;
+	color: #DD2771;
 	display: inline-block;
 	height: 38px;
 	text-align: center;
@@ -10238,9 +10238,9 @@ span.click-button {
 }
 
 .cart-wishlist-compare .product-compare:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
-	border-color: #bf3360;
+	border-color: #DD2771;
 }
 
 .cart-wishlist-compare {
@@ -10256,7 +10256,7 @@ span.click-button {
 }
 
 .btn-link-default.btn-link-loadmore {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border-radius: 4px;
 	display: block;
 	margin: 30px auto auto;
@@ -10333,7 +10333,7 @@ span.click-button {
 }
 
 .info-cart7 .info-icon.icon-cart {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 	border-radius: 50%;
 	color: #fff;
 	display: block;
@@ -10365,7 +10365,7 @@ span.click-button {
 }
 
 .info-cart7 .link-cart .cart-edit {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 }
 
 .info-cart7 .link-cart a {
@@ -10385,7 +10385,7 @@ span.click-button {
 }
 
 .info-cart7 .link-cart .cart-checkout:hover {
-	background: #bf3360 none repeat scroll 0 0;
+	background: #DD2771 none repeat scroll 0 0;
 }
 
 .info-cart7 .info-icon.icon-cart span {
@@ -10402,7 +10402,7 @@ span.click-button {
 }
 
 .register-box .link-login {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .register-box .link-login:hover {
@@ -10414,7 +10414,7 @@ span.click-button {
 }
 
 .register-box .link-signin:hover {
-	background: #bf3360;
+	background: #DD2771;
 }
 
 .search-form7 input[type="submit"] {
@@ -10502,7 +10502,7 @@ span.click-button {
 }
 
 .item-attr-content a:hover {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .attr-category a {
@@ -10665,7 +10665,7 @@ span.click-button {
 }
 
 .heading-box > h2 {
-	color: #bf3360;
+	color: #DD2771;
 	font-size: 40px;
 	margin-bottom: 80px;
 	font-family: 'Oswald', sans-serif;
@@ -10700,7 +10700,7 @@ span.click-button {
 }
 
 .item-team-gallery h3 a {
-	color: #bf3360;
+	color: #DD2771;
 	font-size: 16px;
 }
 
@@ -10755,7 +10755,7 @@ span.click-button {
 }
 
 .team-social-network a:hover {
-	background: #bf3360;
+	background: #DD2771;
 	color: #fff;
 }
 
@@ -10959,11 +10959,11 @@ a.content-link {
 }
 
 .text-fucsia {
-	color: #bf3360;
+	color: #DD2771;
 }
 
 .bg-principal {
-	background-color: #bf3360;
+	background-color: #DD2771;
 }
 
 .bg-black {

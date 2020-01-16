@@ -57,7 +57,7 @@
 						</li>
 
 						<li class="column-1">
-							<a href="../login.html">Iniciar sesión</a>
+							<a href="../login.html">Cerrar sesión</a>
 						</li>
 
 					</ul>
@@ -78,24 +78,27 @@
 				<div class="navigation content-push">
 					<div class="navigation-header responsive-menu-toggle-class">
 						<div class="close-menu"></div>
-						<div class="logo-responsive"><a href="index.html"><img src="img/logo.png" alt="Mascota Puntos"></a></div>
+						<div class="logo-responsive"><a href="index.html"><img src="img/two-logsResp.png" alt="HSBC"></a></div>
 					</div>
 					<div class="nav-overflow">
 						<div class="content-push">
 							<div class="col-lg-2">
-								<a href="index.html" class="fixed-header-visible additional-header-logo top" style="display: block;float: left;"><img src="img/logo.png" alt=""></a>
+								<a href="index.html" class="fixed-header-visible additional-header-logo top" style="display: block;float: left;"><img src="img/two-logs.png" alt=""></a>
 							</div>
-							<div class="col-sm-12 col-lg-6 text-center">
+							<div class="col-sm-12 col-lg-4 text-center">
 								<nav>
 									<ul>
 										<li class="column-1">
-											<a href="categorias.html">Productos</a>
+											<a href="categorias.html">Catálogo</a>
 										</li>
+										<!-- <li class="column-1">
+											<a href="experiencia.html">Beneficios</a>
+										</li> -->
 										<li class="column-1">
 											<a href="mis_puntos.html">Mis Puntos</a>
 										</li>
 										<li class="column-1">
-											<a href="mi-perfil.html" class="active">Mi Perfil</a>
+											<a href="mi-perfil.html">Mi Perfil</a>
 										</li>
 										<li class="column-1">
 											<a href="contacto.html">Contáctanos</a>
@@ -112,11 +115,14 @@
 									</ul>
 								</nav>
 							</div>
-							<div class="col-lg-4 visible-lg">
+							<div class="col-lg-6 visible-lg">
 								<div class="info-header info-header2">
 									<ul class="info-total">
 										<li class="buscador">
 											<input type="text" placeholder="Busca tus productos aquí" class="buscar"><a href=""><i class="fa fa-search"></i></a>
+										</li>
+										<li class="info-pts ">
+											<p>Tienes <span>260,000</span> puntos</p>
 										</li>
 										<li><a href="wishlist.html" data-toggle="tooltip" data-placement="top" title="Mis favoritos" class="btn-icono"><span class="lnr lnr-heart"></span></a></li>
 										<li><a href="carrito.html" class=" btn-icono" data-toggle="tooltip" data-placement="top" title="Mi carrito"><span class="lnr lnr-cart"></span><sup>2</sup></a></li>
@@ -164,13 +170,17 @@
 								<div class="row">
 									<div class="col-sm-6 sinpad-resp">
 										<label for="" class="obl">Nombres</label>
-										<input type="text" value="Lorem ipsum">
+										<input type="text" value="Juan Antonio">
 									</div>
 									<div class="col-sm-6 sinpad-resp">
 										<label class="obl">Apellidos</label>
-										<input type="text" value="Lorem ipsum">
+										<input type="text" value="Castro">
 									</div>
-									<div class="col-sm-6 sinpad-resp" style="height: 84px">
+									<div class="col-sm-6 sinpad-resp">
+										<label class="obl">DNI</label>
+										<input type="text" value="863242">
+									</div>
+									<div class="col-sm-6 sinpad-resp">
 										<label class="obl">Fecha de nacimiento</label>
 										<input type="text" style="width: 25%" placeholder="Día">
 										<select name="" id="" style="width: 46%">
@@ -218,7 +228,7 @@
 											</select>
 									</div>
 									<div class="col-sm-6">
-										<label class="obl">Localidad</label>
+										<label class="obl">Provincia</label>
 										<select name="" id="">
 												<option value="">Seleccionar</option>
 												<option value="">Lorem</option>
@@ -226,12 +236,28 @@
 											</select>
 									</div>
 									<div class="col-sm-6">
-										<label class="obl">Dirección</label>
+										<label class="obl">Distrito</label>
+										<select name="" id="">
+												<option value="">Seleccionar</option>
+												<option value="">Lorem</option>
+												<option value="">Lorem</option>
+											</select>
+									</div>
+									<div class="col-sm-6">
+										<label class="obl">Tipo o nombre de la via</label>
 										<input type="text" value="Lorem ipsum">
 									</div>
 									<div class="col-sm-6">
-										<label class="obl">Observaciones</label>
+										<label class="obl">Dirección de entrega</label>
 										<input type="text" value="Lorem ipsum">
+									</div>
+									<div class="col-sm-6">
+										<label class="obl">Teléfono de contacto</label>
+										<input type="text" value="96251151">
+									</div>
+									<div class="col-sm-12">
+										<label class="obl">Referencia u observaciones</label>
+										<input type="text">
 									</div>
 									<div class="col-sm-6 col-xs-12 sinpad-resp">
 										<a class="button style-10" style="width: 100%;margin-top: 28px;" href="#">Guardar cambios</a>
@@ -240,14 +266,6 @@
 							</div>
 							<div role="tabpanel" class="tab-pane" id="sesion">
 								<div class="row">
-									<div class="col-sm-6 col-xs-12 sinpad-resp">
-										<label for="">Correo electrónico</label>
-										<input type="text" value="lorem@ipsum.com" disabled>
-									</div>
-									<div class="col-sm-6 col-xs-12 sinpad-resp">
-										<label for="">Contraseña actual</label>
-										<input type="text" value="123456" disabled>
-									</div>
 									<div class="col-sm-6 col-xs-12 sinpad-resp">
 										<label for="" class="obl">Nueva contraseña</label>
 										<input type="text" placeholder="">
@@ -270,8 +288,10 @@
 	<footer id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-					<p>© Mascota Puntos 2019</p>
+				<div class="col-md-6 dis-flex">
+					<p>© Mascota Puntos</p>
+					<a class="mrg-left" href="https://www.facebook.com/mascotaclubperu/?ref=bookmarks"><img src="img/icon-fb.png" alt=""></a>
+						<!-- <a class="mrg-left" href="https://www.invetsa.com/"><img src="img/icon-web.png" alt=""></a> -->
 				</div>
 				<div class="col-md-6 menu">
 					<ul>

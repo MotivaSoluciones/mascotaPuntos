@@ -19,61 +19,102 @@
 </head>
 
 <body class="fondo">
+	<div class="col-md-12 disp-fle">
+		<div class="col-md-10"></div>
+		<div class="col-md-2">
+			<img src="img/logo-invetsa2.png" width="110" alt="">
+		</div>
+	</div>
 	<div class="login-box">
-		<div class="col-md-3 col-xs-12">
-			<div class="nav-tabs-border nav-tabs-block">
-				<ul class="nav nav-tabs" role="tablist">
-					<li role="presentation" class="active"><a href="#datos" aria-controls="newarrival1" role="tab" data-toggle="tab">Veterinaria</a></li>
-					<li role="presentation"><a href="#direccion" aria-controls="bestsale1" role="tab" data-toggle="tab">Cliente</a></li>
-				</ul>
+		<div class="mrg-bott30 disp-fle">
+			<div class="col-md-5">
+				<img src="img/club-mascot.png" width="200px" alt="">
+			</div>
+			<div class="col-md-7">
+				<h1 class="txt-right sky-color"><span class="ftw-600 font-30">Bienvenid<span class="pink-color">o</span> a <br> MASC<span class="pink-color">o</span>TA <br> PUNT<span class="pink-color">o</span>S</span><br></h1>
+				<h2 class="txt-right fnt-siz">El programa de beneficios para veterinarias, petshops y dueños de mascotas.</h2>
 			</div>
 		</div>
-		<div class="col-md-12">
-			<div class="col-md-12  col-xs-12">
-				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane active" id="datos">
-						<div class="login-form tab-flex">
-							<div class="text-center">
-								<img src="img/mascotaverde.png" width="190">
+		<div class="disp-fle mrg-top100">
+			<div>
+				<p class="txt-center">¿Tienes una veterinaria o petshop?</p class="txt-center">
+				<a href="" class="open-product button style-10">VETERINARIA</a>
+			</div>
+			<div>
+				<p class="txt-center">¿Tienes una mascota?</p>
+				<a href="" class="open-addcar button style-10">CLIENTE</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="product-popup" class="overlay-popup">
+		<div class="overflow">
+			<div class="table-view">
+				<div class="cell-view">
+					<div class="close-layer"></div>
+					<div class="popup-container">
+						<div class="row back-vet">
+							<div class="col-sm-5 information-entry padd-box disp-cent">
+								<div class="col-md-10 txt-center">
+									<h2 class="font-30 mrg-bott30 col-white ftw-600">INICIO DE SESIÓN</h2>
+									<input type="text" placeholder="Numero RUC" class="mrg-bott20">
+									<input type="password" placeholder="Contraseña">
+									<br>
+									<a href=invetsa-web/restablecer_pass.html class="forgot col-white">Olvidé mi contraseña</a>
+									<br><br>
+									<a class="button style-10" href="invetsa-web/index.html">INICIAR SESIÓN</a>
+								</div>
 							</div>
-							<br>
-							<div class="col-md-7 pos-ab">
-								<label for="">Numero RUC</label>
-								<input type="text">
-								<label class="pass">Contraseña</label>
-								<input type="password">
-								<br>
-								<a href=invetsa-web/restablecer_pass.html class="forgot">Olvidé mi contraseña</a>
-								<br><br>
-								<a class="button style-10" href="invetsa-web/index.html">INICIAR SESIÓN</a>
-							</div>
-						</div>
-					</div>
-					<div role="tabpanel" class="tab-pane" id="direccion">
-						<div class="login-form tab-flex">
-							<div class="text-center">
-								<img src="img/mascotaazul.png" width="190">
-							</div>
-							<br>
-							<div class="col-md-7 pos-ab">
-								<label for="">Usuario</label>
-								<input type="text">
-								<label class="pass">Contraseña</label>
-								<input type="password">
-								<br>
-								<a href=macotaClub-web/restablecer_pass.html class="forgot">Olvidé mi contraseña</a>
-								<br><br>
-								<a class="button style-10" href="macotaClub-web/index.html">INICIAR SESIÓN</a>
-								<br>
-								<a class="button style-11" href="macotaClub-web/registro-mascot.html">REGISTRARME</a>
+							<div class="col-sm-7 information-entry padd-0">
+								<div class="swiper-container">
+									<img src="img/cover-logg.png">
+								</div>
 							</div>
 						</div>
+
+						<div class="close-popup"></div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
+	<div id="add-car" class="overlay-popup">
+		<div class="overflow">
+			<div class="table-view">
+				<div class="cell-view">
+					<div class="close-layer"></div>
+					<div class="popup-container">
+						<div class="row back-client">
+							<div class="col-sm-5 information-entry padd-box disp-cent">
+								<div class="col-md-10 txt-center">
+									<h2 class="font-30 mrg-bott30 col-white ftw-600">INICIO DE SESIÓN</h2>
+									<input type="text" placeholder="Usuario">
+									<input type="password" placeholder="Contraseña">
+									<br><br><br><br>
+									<a class="button btn-pink" href="macotaClub-web/index.html">INICIAR SESIÓN</a>
+									<br>
+									<br>
+									<a href=macotaClub-web/restablecer_pass.html class="forgot col-white mrg-bott20">Olvidé mi contraseña</a>
+									<br><br>
+									<a class="col-white style-11 ftw-600" href="macotaClub-web/registro-mascot.html">REGISTRARME</a>
+									<br><br><br><br><br><br><br><br><br>
+									<a class="button style-fb" href="https://www.facebook.com/mascotaclubperu/?ref=bookmarks">Iniciar sesión con Facebook</a>
+								</div>
+							</div>
+							<div class="col-sm-7 information-entry padd-0">
+								<div class="swiper-container">
+									<img src="img/cover-logg3.png">
+								</div>
+							</div>
+						</div>
 
+						<div class="close-popup"></div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	
 
