@@ -992,7 +992,7 @@ nav > ul > li {
 nav > ul > li > a {
 	font-weight: 600;
 	white-space: nowrap;
-	font-size: 12px;
+	font-size: 11px;
 	line-height: 62px;
 	text-transform: uppercase;
 	display: inline-block;
@@ -11272,7 +11272,8 @@ select[value="0"] {
 }
 
 .mis_puntos .title-subpage {
-	padding-left: 50px
+	padding-left: 50px;
+	padding-right: 20px;
 }
 
 .mis_puntos .title-subpage.col-md-12 {
@@ -12228,13 +12229,12 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 	}
 	.popup-container img {
 		width: auto;
-		height: 250px;
+		/* height: 250px; */
 		margin: 0 auto
 	}
 	#bienvenida-popup img {
 		margin: 0 5px 0 0;
-		width: 16px;
-		height: 11px;
+		width: 100%;
 	}
 }
 
@@ -12559,14 +12559,15 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 @media(min-width: 768px) {
 	#login-popup .popup-container,
 	#bienvenida-popup .popup-container {
-		max-width: 550px;
+		max-width: 500px;
 		position: relative;
 		text-align: center;
+		border-radius: 5px;
 	}
 
-	#bienvenida-popup .popup-container {
+	/* #bienvenida-popup .popup-container {
 		padding: 30px 30px
-	}
+	} */
 }
 
 #bienvenida-popup a.link {
@@ -13473,7 +13474,7 @@ span.help-block {
 }
 
 .full-width {
-	background: #f3f0f0;
+	background: #f8f8f8;
 }
 
 .relate-product {
@@ -13794,6 +13795,12 @@ p.result {
 	.header-wrapper {
 		height: 0;
 	}
+	.column-1 a{
+		color: grey;
+	}
+	.name-user{
+		color: #fff;
+	}
 }
 
 .producto {
@@ -13936,15 +13943,17 @@ sup {
 }
 
 .item-center{
-	margin: 60px auto 50px;
-	max-width: 650px;
+	border: 2px solid #ececec;
+    margin: 60px auto 50px;
+    max-width: 650px;
     width: 100%;
     padding: 30px 20px 30px;
-    border-radius: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.15);
 }
 
 .marg-center{
-	margin: 30px 0px 20px;
+	margin: 40px 0px 20px;
 }
 .text-point{
 	text-align: center;
@@ -13987,8 +13996,17 @@ sup {
 	.column-1 a{
 		color: #767676;
 	}
+	.box-reg{
+		width: 360px !important;
+	}
+	.login-box{
+		padding: 0px 0px;
+	}
 }
 
+.box-reg{
+	width: 550px;
+}
 .dis-flex{
 	display: flex;
 	align-items: center;

@@ -12227,7 +12227,7 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 	}
 	.popup-container img {
 		width: auto;
-		height: 250px;
+		/* height: 250px; */
 		margin: 0 auto
 	}
 	#bienvenida-popup img {
@@ -12271,6 +12271,9 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 		left: 0;
 		top: 0;
 		background: rgba(255, 255, 255, 0.8);
+	}
+	.login-box{
+		width: 55% !important;
 	}
 }
 
@@ -12734,7 +12737,7 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 	#add-wishlist .col-sm-9,
 	#add-car .col-sm-3,
 	#add-car .col-sm-9 {
-		width: 100%;
+		width:90%;
 	}
 	#add-car .img-addcar img,
 	#add-wishlist .img-addcar img,
@@ -12772,13 +12775,13 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 }
 
 @media (min-width: 421px) and (max-width: 767px) {
-	.popup-container {
+	.popup-container {	
 		width: 380px!important;
 	}
-	#add-car .popup-container,
+	/* #add-car .popup-container,
 	#add-wishlist .popup-container {
 		width: 290px!important;
-	}
+	} */
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
@@ -13292,13 +13295,9 @@ form div {
 }
 
 .login-box p {
-	color: #272425d9;
-	font-weight: 500;
-	clear: both;
-	padding-top: 10px;
-	line-height: 5mm;
-	font-size: 13px;
-	margin-bottom: 5px;
+    color: rgb(164, 164, 164);
+	margin-bottom: 15px;
+	font-size: 15px;
 }
 
 .registro p {
@@ -13959,6 +13958,10 @@ sup {
 	background: #fff;
 	border: 1px solid #333;
 }
+.img-center{
+	display: block;
+	margin: auto;
+}
 
 .font-30{
 	font-size: 30px;
@@ -13967,13 +13970,16 @@ sup {
 	font-weight: 600;
 }
 .padd-box{
-	padding: 90px 20px 30px;
+	padding: 60px 20px 30px;
+}
+.mrg-bott20{
+	margin-bottom: 20px !important;
 }
 .mrg-bott30{
 	margin-bottom: 30px;
 }
-.mrg-bott20{
-	margin-bottom: 20px !important;
+.mrg-bott60{
+	margin-bottom: 60px;
 }
 .mrg-top100{
 	margin-top: 100px;
@@ -14014,7 +14020,7 @@ sup {
 }
 .fnt-siz{
 	line-height: 20px;
-    font-size: 17px;
+    font-size: 18px;
     color: rgb(164, 164, 164);
     margin-top: 17px;
 }
@@ -14023,3 +14029,28 @@ sup {
 	color: #DD2771;
 }
 
+@media (max-width: 1200px) {
+	.login-box{
+		padding: 50px 20px 80px;
+	}
+}
+
+@media (max-width: 990px) {
+	.disp-fle{
+		display: block !important;
+	}
+}
+
+@media (max-width: 800px) {
+	.login-box{
+		width: 90% !important;
+	}
+	.mrg-resp30{
+		margin-top: 30px;
+	}
+}
+@media (max-width: 720px) {
+	.popup-container{
+		width: 100% !;
+	}
+}

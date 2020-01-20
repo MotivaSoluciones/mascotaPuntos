@@ -11270,7 +11270,8 @@ select[value="0"] {
 }
 
 .mis_puntos .title-subpage {
-	padding-left: 50px
+	padding-left: 50px;
+	padding-right: 20px;
 }
 
 .mis_puntos .title-subpage.col-md-12 {
@@ -11341,7 +11342,7 @@ select[value="0"] {
 }
 
 .box-colors .block_color:nth-child(1) a {
-	background: #5A5A96;
+	background: #6363b6;
 }
 
 .mis_puntos .puntos_disponibles {
@@ -11350,12 +11351,12 @@ select[value="0"] {
 }
 
 .box-colors .block_color:nth-child(2) a {
-	background: #5A89A6;
+	background: #5f99bd;
 }
 
 .mis_puntos .puntos_canjeados {
 	background-image: url(../img/casilla_3.png);
-	background-color: #88CAF7;
+	background-color: #7abcea;
 }
 
 .box-colors .block_color:nth-child(3) a {
@@ -12226,7 +12227,7 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 	}
 	.popup-container img {
 		width: auto;
-		height: 250px;
+		/* height: 250px; */
 		margin: 0 auto
 	}
 	#bienvenida-popup img {
@@ -13932,6 +13933,12 @@ sup {
 	.column-1 a{
 		color: #767676;
 	}
+	.box-reg{
+		width: 360px !important;
+	}
+}
+.box-reg{
+	width: 550px;
 }
 
 .dis-flex{
@@ -13953,4 +13960,8 @@ sup {
 
 .mrg-top30{
 	margin-top: 30px;
+}
+
+.border-r{
+	border: none !important;
 }
