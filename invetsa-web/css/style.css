@@ -13157,8 +13157,8 @@ form label {
 	background-repeat: repeat;
 	background-size: contain;
 	border-radius: 10px;
-	width: 60%;
-	margin: 20px auto;
+	width: 75%;
+	margin: 50px auto;
 	display: block;
 	float: none;
 	overflow: hidden;
@@ -13213,7 +13213,7 @@ form label {
 	background-image: url(../img/BACKDEGRADE.PNG);
 	background-repeat: no-repeat!important;
 	background-position: center center;
-	background-size: cover;
+	/* background-size: cover; */
 	background-attachment: fixed;
 }
 
@@ -13359,7 +13359,7 @@ form div {
 
 @media(max-width: 420px) {
 	.fondo {
-		background-size: cover;
+		/* background-size: cover; */
 		min-height: 738px;
 		overflow: visible;
 		height: auto;
@@ -13402,7 +13402,7 @@ form div {
 
 @media (min-width: 1024px) {
 	.fondo {
-		background-size: 145%;
+		background-size: 110%;
 	}
 }
 
@@ -13799,6 +13799,25 @@ p.result {
 	.header-wrapper {
 		height: 0;
 	}
+	.btn-icono {
+		border: 1px solid #767676 !important;
+		width: 42px;
+		height: 42px;
+		padding: 13px 10px;
+		border-radius: 100%;
+		font-size: 16px;
+		font-weight: 600;
+		color: #767676 !important;
+		overflow: hidden;
+		text-align: center;
+		display: inline-block;
+	}
+	.column-1 a{
+		color: #767676;
+	}
+	.name-user{
+		color: #fff;
+	}
 }
 
 .producto {
@@ -13964,4 +13983,32 @@ sup {
 
 .border-r{
 	border: none !important;
+}
+
+/*******************/
+.padd-box{
+	padding: 30px 20px 30px;
+}
+.txt-center{
+	text-align: center;
+}
+.disp-cent{
+	display: flex;
+	justify-content: center;
+}
+.item-cent{
+	align-items: center;
+}
+
+.mrg-bott40{
+	margin-bottom: 40px !important;
+}
+.padd-0{
+	padding: 0px 0px;
+}
+
+@media (max-width:750px) {
+	.back-client{
+		padding: 0px 20px;
+	}
 }

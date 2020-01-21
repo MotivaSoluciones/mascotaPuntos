@@ -12710,7 +12710,7 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 
 @media (max-width: 767px) {
 	.popup-container {
-		margin: 15px!important;
+		margin: 15px auto !important;
 	}
 	.overlay-popup .popup-container {
 		padding: 20px;
@@ -12775,7 +12775,7 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 	}
 }
 
-@media (min-width: 421px) and (max-width: 767px) {
+@media (min-width: 521px) and (max-width: 767px) {
 	.popup-container {
 		width: 380px!important;
 	}
@@ -13159,8 +13159,8 @@ form label {
 	background-repeat: repeat;
 	background-size: contain;
 	border-radius: 10px;
-	width: 60%;
-	margin: 20px auto;
+	width: 75%;
+	margin: 50px auto;
 	display: block;
 	float: none;
 	overflow: hidden;
@@ -13209,7 +13209,7 @@ form label {
 	background-image: url(../img/BACKDEGRADE.PNG)!important;
 	background-repeat: no-repeat!important;
 	background-position: center center;
-	background-size: cover;
+	/* background-size: cover; */
 	background-attachment: fixed;
 }
 
@@ -13355,7 +13355,7 @@ form div {
 
 @media(max-width: 420px) {
 	.fondo {
-		background-size: cover;
+		/* background-size: cover; */
 		min-height: 738px;
 		overflow: visible;
 		height: auto;
@@ -13398,7 +13398,7 @@ form div {
 
 @media (min-width: 1024px) {
 	.fondo {
-		background-size: 145%;
+		background-size: 110%;
 	}
 }
 
@@ -13801,6 +13801,25 @@ p.result {
 	.name-user{
 		color: #fff;
 	}
+	.btn-icono {
+		border: 1px solid #767676 !important;
+		width: 42px;
+		height: 42px;
+		padding: 13px 10px;
+		border-radius: 100%;
+		font-size: 16px;
+		font-weight: 600;
+		color: #767676 !important;
+		overflow: hidden;
+		text-align: center;
+		display: inline-block;
+	}
+	.column-1 a{
+		color: #767676;
+	}
+	.name-user{
+		color: #fff;
+	}
 }
 
 .producto {
@@ -14002,6 +14021,16 @@ sup {
 	.login-box{
 		padding: 0px 0px;
 	}
+/* 	.wid-img100{
+		width: 200px !important;
+	} */
+	.mrg-left2{
+		width: 90px !important;
+	}
+	.cont-spc{
+		width: 90% !important;
+		padding-top: 30px !important;
+	}
 }
 
 .box-reg{
@@ -14010,6 +14039,22 @@ sup {
 .dis-flex{
 	display: flex;
 	align-items: center;
+}
+.pos-rel{
+	position: relative;
+}
+.pos-abs{
+	position: absolute;
+}
+.pos-left{
+	top: 35%;
+    position: absolute;
+    left: -150px;
+}
+.pos-right{
+	position: absolute;
+    right: -150px;
+    top: 35%;
 }
 .mrg-left{
 	margin-left: 15px;
@@ -14033,10 +14078,9 @@ sup {
 }
 .cont-spc{
 	border-radius: 10px;
-	width: 420px !important;
 }
 .wid-img100{
-	width: 100px;
+	width: 100px !important;
 }
 .fnt-weig{
 	font-weight: 600 !important;
@@ -14049,4 +14093,36 @@ sup {
 	border-top: 2px solid #e2e2e2;
     margin-top: 20px;
     padding-top: 20px;
+}
+
+.mrg-left2{
+	margin-left: 80% !important;
+}
+
+/*******************/
+.padd-box{
+	padding: 30px 20px 30px;
+}
+.txt-center{
+	text-align: center;
+}
+.disp-cent{
+	display: flex;
+	justify-content: center;
+}
+.item-cent{
+	align-items: center;
+}
+
+.mrg-bott40{
+	margin-bottom: 40px !important;
+}
+.padd-0{
+	padding: 0px 0px;
+}
+
+@media (max-width:750px) {
+	.back-client{
+		padding: 0px 20px;
+	}
 }
