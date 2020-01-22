@@ -13962,13 +13962,13 @@ sup {
 }
 
 .item-center{
-	border: 2px solid #ececec;
     margin: 60px auto 50px;
     max-width: 650px;
     width: 100%;
     padding: 30px 20px 30px;
     border-radius: 20px;
-    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.15);
+	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.15);
+	background: linear-gradient(to top, #3be8f5 0%, #aff5d3 100%);
 }
 
 .marg-center{
@@ -14120,9 +14120,16 @@ sup {
 .padd-0{
 	padding: 0px 0px;
 }
+.txt-whiteBlack{
+	color: #464646;
+}
 
 @media (max-width:750px) {
 	.back-client{
 		padding: 0px 20px;
 	}
+}
+
+.border-b{
+	border: 3px dashed #245f77;
 }
