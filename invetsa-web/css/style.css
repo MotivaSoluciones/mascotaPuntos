@@ -13306,11 +13306,12 @@ form div {
 	color: #fff
 }
 
-.login-box .button {
+/* .login-box .button {
 	width: 100%;
 	display: block;
 	border-radius: 4px;
-}
+} */
+
 
 .login-box select,
 .login-box input {
@@ -13985,6 +13986,10 @@ sup {
 	border: none !important;
 }
 
+.col-white{
+	color: #fff !important;
+}
+
 /*******************/
 .padd-box{
 	padding: 30px 20px 30px;
@@ -14011,4 +14016,7 @@ sup {
 	.back-client{
 		padding: 0px 20px;
 	}
+}
+.back-client{
+	background-color: #5C5EAA;
 }

@@ -443,7 +443,7 @@ body {
 	padding: 9px 40px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: #fff;
+	color: #000;
 	overflow: hidden;
 	position: relative;
 	min-width: 170px;
@@ -459,8 +459,8 @@ body {
 /*Boton gris fucsia*/
 
 .button.style-10 {
-	border: 1px solid #1fb250;
-	background: #1fb250;
+	border: 1px solid #fff;
+	background: #fff;
 
 	transition: all 0.5s ease-out 0s;
 }
@@ -12434,7 +12434,7 @@ body:not(.mobile) .special-item-entry:hover > img:first-child {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0, 0, 0, 0.6);
+	/* background: rgba(0, 0, 0, 0.6); */
 	opacity: 0;
 	min-height: 100vh;
 }
@@ -13152,8 +13152,8 @@ form label {
 	left: 0;
 	height: auto;
 	min-height: 100%;
-	padding: 50px 60px 80px;
-	background-color: #fff;
+	/* padding: 50px 60px 80px; */
+/* 	background-color: #fff; */
 	background-repeat: repeat;
 	background-size: contain;
 	border-radius: 10px;
@@ -13217,6 +13217,7 @@ form label {
 	background-position: center center;
 	/* background-size: cover; */
 	background-attachment: fixed;
+	background-position: top;
 }
 
 .fondo.page-registro {
@@ -13295,7 +13296,7 @@ form div {
 }
 
 .login-box p {
-    color: #000;
+    color: #fff;
 	margin-bottom: 15px;
 	font-size: 15px;
 }
@@ -13975,11 +13976,8 @@ sup {
 .padd-box{
 	padding: 50px 20px 30px;
 }
-.mrg-top10{
-	margin-top: 10px !important;
-}
-.mrg-top20{
-	margin-top: 20px;
+.mrg-bott10{
+	margin-bottom: 10px;
 }
 .mrg-bott20{
 	margin-bottom: 20px !important;
@@ -13993,8 +13991,14 @@ sup {
 .mrg-bott40{
 	margin-bottom: 40px !important;
 }
+.mrg-top10{
+	margin-top: 10px !important;
+}
+.mrg-top20{
+	margin-top: 20px;
+}
 .mrg-top100{
-	margin-top: 100px;
+	margin-top: 80px;
 }
 .txt-center{
 	text-align: center;
@@ -14033,13 +14037,14 @@ sup {
 }
 .sky-color{
 	text-transform: uppercase;
-	color: #45a3b3;
+	/* color: #45a3b3; */
+	color: #FFF;
 }
 .fnt-siz{
 	line-height: 20px;
     font-size: 18px;
-    color: rgb(164, 164, 164);
-    margin-top: 17px;
+    color: #fff;
+    margin-top: 40px;
 }
 .btn-pink{
 	background-color: #fff;
