@@ -231,6 +231,7 @@ body {
 	vertical-align: middle;
 	height: inherit;
 	text-align: center;
+	text-align: left !important;
 }
 
 .cell-view.black {
@@ -458,8 +459,8 @@ body {
 /*Boton gris fucsia*/
 
 .button.style-10 {
-	border: 1px solid #DD2771;
-	background: #DD2771;
+	border: 1px solid #45a3b3;
+	background: #45a3b3;
 
 	transition: all 0.5s ease-out 0s;
 }
@@ -500,7 +501,7 @@ body {
 .button.style-11 {
 	background: #fff;
 	color: #333;
-	border: 1px solid #333;
+	/* border: 1px solid #333; */
 }
 
 .button.style-11:hover {
@@ -13302,11 +13303,11 @@ form div {
 	color: #fff
 }
 
-.login-box .button {
+/* .login-box .button {
 	width: 100%;
 	display: block;
 	border-radius: 4px;
-}
+} */
 
 .login-box select,
 .login-box input {
@@ -13967,8 +13968,8 @@ sup {
     width: 100%;
     padding: 30px 20px 30px;
     border-radius: 20px;
-	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.15);
-	background: linear-gradient(to top, #3be8f5 0%, #aff5d3 100%);
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
+	background-color: #ff1763;
 }
 
 .marg-center{
@@ -14088,6 +14089,9 @@ sup {
 .fnt-25{
 	font-size: 25px !important;
 }
+.fnt-itcent{
+	font-size: 32px;
+}
 
 .bord-padd{
 	border-top: 2px solid #e2e2e2;
@@ -14123,6 +14127,19 @@ sup {
 .txt-whiteBlack{
 	color: #464646;
 }
+.txt-sky{
+	color: #45a3b3 !important;
+}
+.back-client{
+	background-color: #DD2771;
+}
+.col-white{
+	color: #fff !important;
+}
+.butt-rad{
+	border-radius: 20px;
+	width: 42%;
+}
 
 @media (max-width:750px) {
 	.back-client{
@@ -14132,4 +14149,14 @@ sup {
 
 .border-b{
 	border: 3px dashed #245f77;
+}
+.widt-100{
+	width: 100%;
+}
+.but-regis{
+	background-color: #DD2771;
+	border: 1px solid #DD2771;
+}
+.bor-black{
+	border: 1px solid #000;
 }

@@ -13153,7 +13153,7 @@ form label {
 	height: auto;
 	min-height: 100%;
 	/* padding: 50px 60px 80px; */
-/* 	background-color: #fff; */
+    background-color: #ffffff82;
 	background-repeat: repeat;
 	background-size: contain;
 	border-radius: 10px;
@@ -13162,6 +13162,9 @@ form label {
 	display: block;
 	float: none;
 	overflow: hidden;
+	-webkit-box-shadow: 1px 2px 11px 7px rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 1px 2px 11px 7px rgba(0, 0, 0, 0.25);
+	box-shadow: 1px 2px 11px 7px rgba(0, 0, 0, 0.25);
 }
 
 .login-form {
@@ -13296,9 +13299,9 @@ form div {
 }
 
 .login-box p {
-    color: #fff;
-	margin-bottom: 15px;
-	font-size: 15px;
+    color: #000;
+	margin-bottom: 9px;
+	font-size: 17px;
 }
 
 .registro p {
@@ -13306,9 +13309,10 @@ form div {
 }
 
 .login-box .button {
-	width: 100%;
-	display: block;
-	border-radius: 4px;
+	width: 60%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
 }
 
 .login-box select,
@@ -14023,6 +14027,14 @@ sup {
 .padd-0{
 	padding: 0px 0px;
 }
+.back-left{
+	display: flex;
+    align-items: center;
+}
+.back-logg{
+	background-color: #fff;
+	padding: 25px 12px 40px;
+}
 .back-vet{
 	background-color: #5c5eaa;
 }
@@ -14037,19 +14049,37 @@ sup {
 }
 .sky-color{
 	text-transform: uppercase;
-	/* color: #45a3b3; */
-	color: #FFF;
+	color: #45a3b3;
+	/* color: #FFF; */
 }
 .fnt-siz{
 	line-height: 20px;
     font-size: 18px;
-    color: #fff;
-    margin-top: 40px;
+    color: #45a3b3;
+	margin: 40px 0px;
 }
 .btn-pink{
 	background-color: #fff;
 	color: #DD2771;
 }
+
+.style-cli{
+	border: 2px solid #DD2771;
+	color: #DD2771;
+    background: #fff;
+    transition: all 0.5s ease-out 0s;
+}
+.style-vet{
+	border: 2px solid #45a3b3;
+	color: #45a3b3;
+    background: #fff;
+    transition: all 0.5s ease-out 0s;
+}
+
+
+
+
+
 
 @media (max-width: 1200px) {
 	.login-box{

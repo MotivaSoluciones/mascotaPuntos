@@ -231,6 +231,7 @@ body {
 	vertical-align: middle;
 	height: inherit;
 	text-align: center;
+	text-align: left !important;
 }
 
 .cell-view.black {
@@ -460,7 +461,6 @@ body {
 .button.style-10 {
 	border: 1px solid #1fb250;
 	background: #1fb250;
-
 	transition: all 0.5s ease-out 0s;
 }
 
@@ -991,7 +991,7 @@ nav > ul > li {
 nav > ul > li > a {
 	font-weight: 600;
 	white-space: nowrap;
-	font-size: 11px;
+	font-size: 10px;
 	line-height: 62px;
 	text-transform: uppercase;
 	display: inline-block;
@@ -13610,7 +13610,7 @@ span.help-block {
 	padding: 11px 18px;
 	background-repeat: no-repeat;
 	background-position: top left;
-	margin-right: 20px;
+	margin-right: 17px;
 	-webkit-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.34);
 	-moz-box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.34);
 	box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.34);
@@ -14010,6 +14010,11 @@ sup {
 }
 .padd-0{
 	padding: 0px 0px;
+}
+
+.butt-rad{
+	border-radius: 20px;
+	width: 42%;
 }
 
 @media (max-width:750px) {
