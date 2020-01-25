@@ -13978,7 +13978,7 @@ sup {
 	font-weight: 600;
 }
 .padd-box{
-	padding: 50px 20px 30px;
+	padding: 50px 20px 0px;
 }
 .mrg-bott10{
 	margin-bottom: 10px;
@@ -14037,9 +14037,11 @@ sup {
 }
 .back-vet{
 	background-color: #5c5eaa;
+	height: 591px;
 }
 .back-client{
 	background-color: #DD2771;
+	height: 591px;
 }
 .col-white{
 	color: #fff;
@@ -14083,7 +14085,7 @@ sup {
 
 @media (max-width: 1200px) {
 	.login-box{
-		padding: 50px 20px 80px;
+		padding-top: 50px;
 	}
 }
 
