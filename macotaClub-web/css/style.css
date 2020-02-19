@@ -4688,12 +4688,12 @@ body:not(.mobile) #content-block .sidebar-navigation .entry:hover .fa {
 		height: 100%;
 		left: 0;
 		top: 0;
-		background: rgba(255, 255, 255, 0.7);
+		/* background: rgba(255, 255, 255, 0.7); */
 		content: "";
 	}
-	#content-block .navigation-banner-wrapper.light-text:before {
+	/* #content-block .navigation-banner-wrapper.light-text:before {
 		background: rgba(31, 31, 31, 0.53);
-	}
+	} */
 	#content-block .navigation-banner-wrapper.light-text .description {
 		color: #fff!important;
 		max-width: initial;
@@ -13838,8 +13838,8 @@ p.result {
 }
 
 .btn-icono {
+	border: 2px solid #fff;
 	width: 42px;
-    border: 2px solid #fff;
     height: 42px;
     padding: 13px 10px;
     border-radius: 100%;
@@ -14189,4 +14189,15 @@ sup {
 /* linea 918 */
 .log-up{
 	z-index: 1;
+}
+
+.box-img{
+	margin: 0px !important;
+    width: 100% !important;
+    padding: 0px !important;
+}
+.bann-100{
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }

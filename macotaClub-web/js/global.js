@@ -205,6 +205,15 @@ $(function () {
 	}
 
 	//swiper arrows
+
+	$('.banner-estatico').click(function () {
+		debugger;
+		console.log('wfawfafawfaw')
+		var url = $(this).attr('data-uri');
+		window.location.href = url;
+	});
+
+
 	$('.swiper-arrow-left').click(function () {
 		swipers['swiper-' + $(this).parent().attr('id')].swipePrev();
 	});
