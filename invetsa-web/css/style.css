@@ -4686,12 +4686,12 @@ body:not(.mobile) #content-block .sidebar-navigation .entry:hover .fa {
 		height: 100%;
 		left: 0;
 		top: 0;
-		background: rgba(255, 255, 255, 0.7);
+		/* background: rgba(255, 255, 255, 0.7); */
 		content: "";
 	}
-	#content-block .navigation-banner-wrapper.light-text:before {
+/* 	#content-block .navigation-banner-wrapper.light-text:before {
 		background: rgba(31, 31, 31, 0.53);
-	}
+	} */
 	#content-block .navigation-banner-wrapper.light-text .description {
 		color: #fff!important;
 		max-width: initial;
@@ -14122,4 +14122,20 @@ sup {
 
 .mrg-bott{
 	margin-bottom: 30px;
+}
+
+
+
+/*******Banners Carrusel*******/
+
+.banner-swip1{
+	background-image: url(../img/bg/bg-1.png);
+	background-position: center center;
+}
+
+@media (max-width: 800px) {
+	.banner-swip1{
+		background-image: url(../img/bg/bg-1respons.jpg);
+		background-position: center center;
+	}
 }

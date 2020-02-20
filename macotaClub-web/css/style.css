@@ -14201,3 +14201,23 @@ sup {
 	height: 100%;
 	position: absolute;
 }
+
+
+/*******Banners Carrusel*******/
+
+.banner-swip1{
+	background-image: url(../img/bg/bg-1.png);
+	background-position: center center;
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+	.banner-swip1{
+		background-image: url(../img/bg/bg-1respons.jpg);
+		background-position: center center;
+	}
+}
