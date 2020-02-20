@@ -14108,3 +14108,29 @@ sup {
 		width: 100% !;
 	}
 }
+
+.siz-icons3{
+	width: 40px;
+	border-right: 2px solid #1AA14A;
+    padding-right: 14px;
+}
+.siz-icons2{
+	width:20px;
+}
+
+.itm-cent{
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.pie-bott{
+	background-image: url(../img/pie_pag.png);
+    background-size: contain;
+    background-position: top;
+    height: 56px;
+	width: 210px;
+	padding: 0px 22px;
+	position: absolute;
+    bottom: -60px;
+}
