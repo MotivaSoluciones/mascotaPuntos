@@ -14201,7 +14201,11 @@ sup {
 	height: 100%;
 	position: absolute;
 }
-
+.inpt-pop{
+	border-radius: 25px;
+    border: 2px solid #19A148;
+    width: 260px;
+}
 
 /*******Banners Carrusel*******/
 
