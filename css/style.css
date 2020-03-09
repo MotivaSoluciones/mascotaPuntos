@@ -13379,12 +13379,12 @@ form div {
 }
 
 @media(max-width: 420px) {
-	.fondo {
+	/* .fondo {
 		min-height: 738px;
 		overflow: visible;
 		height: auto;
 		background-position: -700px 0!important;
-	}
+	} */
 	.login-box {
 		width: 100%;
 		padding: 20px 25px;
@@ -13423,6 +13423,25 @@ form div {
 @media (min-width: 1024px) {
 	.fondo {
 		background-size: 100%;
+	}
+}
+
+
+@media (max-width: 720px) {
+	.fondo {
+		background: url(../img/bg-resp.png);
+		background-attachment: fixed;
+		background-position: center;
+		background-size: cover;
+	}
+	.dsg-resp{
+		text-align: center;
+	}
+	.dsg-resp .open-product{
+		margin-bottom: 80px;
+	}
+	.dsg-resp .pie-bott{
+		left: 32%;
 	}
 }
 

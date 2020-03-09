@@ -14132,10 +14132,76 @@ sup {
 	background-image: url(../img/bg/bg-1.png);
 	background-position: center center;
 }
+.banner-swip2{
+	background-image: url(../img/bg/slider_ad.jpg);
+	background-position: center center;
+}
+.banner-swip3{
+	background-image: url(../img/bg/slider_puppy.jpg);
+	background-position: center center;
+}
+.banner-swip4{
+	background-image: url(../img/bg/slider_cute_cat.jpg);
+	background-position: center center;
+}
 
-@media (max-width: 800px) {
+
+.bg-tyc{
+	background-image: url(../img/bg/bg-tyc.png);
+	background-position: top center;
+	background-size: cover;
+}
+.bg-faq{
+	background-image: url(../img/bg/preguntas_frecuentes.png);
+	background-position: top center;
+	background-size: cover;
+}
+
+.bg-mi-perfil{
+	background-image: url(../img/bg/bg-mi-perfil.png);
+	background-position: top center;
+	background-size: cover;
+}
+.bg-contacto{
+	background-image: url(../img/bg/bg-contacto.jpg);
+	background-position: top center;
+	background-size: cover;
+}
+
+@media (max-width: 700px) {
 	.banner-swip1{
 		background-image: url(../img/bg/bg-1respons.jpg);
-		background-position: center center;
+		background-position: center bottom;
+	}
+
+	.bg-puntos{
+		background-image: url(../img/bg/mascota_puntos.png);
+		background-position: bottom center;
+		background-size: cover;
+		height: 180px;
+	}
+	.bg-tyc{
+		background-image: url(../img/bg/terminos_condiciones.png);
+		background-position: bottom center;
+		background-size: cover;
+		height: 180px;
+	}
+	.bg-faq{
+		background-image: url(../img/bg/preguntas_frecuentes3.png);
+		background-position: bottom center;
+		background-size: cover;
+		height: 180px;
+	}
+	.bg-mi-perfil{
+		background-image: url(../img/bg/mi_perfil.png);
+		background-position: bottom center;
+		background-size: cover;
+		height: 180px;
+	}
+	.bg-contacto{
+		background-image: url(../img/bg/contacto_cel.png);
+		background-position: bottom center;
+		background-size: cover;
+		height: 180px;
 	}
 }
