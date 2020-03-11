@@ -13735,6 +13735,9 @@ span.help-block {
 	.product-pagi-nav {
 		margin-bottom: 15px;
 	}
+	.back-client{
+		background-size: 104%;
+	}
 }
 
 @media (max-width: 580px) {
@@ -14139,9 +14142,6 @@ sup {
 .txt-sky{
 	color: #45a3b3 !important;
 }
-.back-client{
-	background-color: #DD2771;
-}
 .col-white{
 	color: #fff !important;
 }
@@ -14206,6 +14206,7 @@ sup {
     border: 2px solid #19A148;
 	width: 260px;
 	margin-bottom: 0px !important;
+	font-size: 15px;
 }
 .but-sty{
 	color: #fff;
@@ -14305,4 +14306,24 @@ sup {
 		background-size: cover;
 		height: 180px;
 	}
+}
+
+.back-client{
+	background-image: url(../img/sky-restb.png);
+	background-size: cover;
+	height: 561px;
+}
+.pos-bott{
+	position: absolute;
+	bottom: 20px;
+}
+
+@media (max-width: 767px) {
+	.heig-imgrest{
+		height: auto !important;
+	}
+}
+
+.heig-imgrest{
+	height: 561px;
 }
