@@ -133,7 +133,7 @@ blockquote {
 }
 
 .info-header {
-	padding-top: 10px;
+	padding-top: 0;
 }
 
 .main-nav > ul > li > a {
@@ -732,6 +732,7 @@ blockquote {
 	/*	text-align: right;*/
 	padding: 0;
 	margin: 0;
+	display: inline-block;
 }
 
 .info-total .icon-search {
@@ -3597,6 +3598,7 @@ Page Product List Mr
 
 .info-header.info-header2 {
 	padding-top: 10px;
+	text-align: right;
 }
 
 .info-header2 .info-search {
@@ -6868,7 +6870,7 @@ Page Product List Mr
 
 .btn-circle-box {
 	display: inline-block;
-	/*    margin: 0 35px;*/
+    margin: 15px 0;
 	vertical-align: middle;
 }
 
@@ -10159,7 +10161,7 @@ span.click-button {
 
 .item-product-loadmore .item-product-info {
 	margin: 0;
-	padding: 25px 25px 25px 0;
+    padding: 25px 0;
 	text-align: left;
 }
 
@@ -10178,7 +10180,7 @@ span.click-button {
 }
 
 .item-product-loadmore .title-product {
-	margin: 0 0 15px 0;
+	margin: 0 0 10px 0;
 }
 
 /*
