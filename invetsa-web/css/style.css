@@ -13610,12 +13610,12 @@ span.help-block {
 }
 
 .info-header li.info-pts {
-    border-radius: 5px;
-    background-color: #fff;
-    padding: 7px 14px;
-    background-repeat: no-repeat;
-    background-position: top left;
-    margin: 0 17px;
+	border-radius: 5px;
+	background-color: #fff;
+	padding: 7px 14px;
+	background-repeat: no-repeat;
+	background-position: top left;
+	margin: 0 17px;
 }
 
 .puntos-darkblue {
@@ -14251,4 +14251,45 @@ sup {
 
 .heig-imgrest {
 	height: 561px;
+}
+
+.closeFormPet {
+	text-align: right;
+}
+
+.closeFormPet p {
+	cursor: pointer;
+	display: inline-block;
+	border-radius: 50%;
+	border: 1px solid red;
+	background: red;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 22px;
+	color: #fff;
+	padding: 0;
+}
+
+.butt-add {
+	display: flex;
+	width: 45px !important;
+	background-color: #fff;
+	margin: auto;
+	border: 1px solid;
+	border-radius: 37px;
+	padding: 10px 10px;
+}
+
+.img-add {
+	width: 25px;
+	display: block;
+	margin: 4px;
+}
+
+.bord-padd {
+	border-top: 2px solid #e2e2e2;
+	margin-top: 20px;
+	padding-top: 20px;
 }

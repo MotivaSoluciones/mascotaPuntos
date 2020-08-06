@@ -5502,14 +5502,14 @@ Page Product List Mr
 
 .new-tabs .nav-tabs > li > a::before {
 	position: absolute;
-    width: 100%;
-    height: 3px;
-    top: 33px;
-    left: 0;
-    content: "";
-    background: #1fb250;
-    opacity: 0;
-    transition: all 0.5s ease-out 0s;
+	width: 100%;
+	height: 3px;
+	top: 33px;
+	left: 0;
+	content: "";
+	background: #1fb250;
+	opacity: 0;
+	transition: all 0.5s ease-out 0s;
 }
 
 .nav-tabs-border .nav-tabs > li > a:hover::before,
@@ -5518,7 +5518,7 @@ Page Product List Mr
 }
 
 .nav-tabs-border {
-	margin-top: 100px;
+	margin-top: 0;
 }
 
 .nav-tabs-border.nav-tabs-block .nav-tabs > li {
@@ -5530,6 +5530,7 @@ Page Product List Mr
 
 .nav-tabs-border.nav-tabs-block .nav-tabs > li > a {
 	margin: 0;
+	border: 1px solid #e5e5e5;
 }
 
 .tab-content.tab-content-border {
@@ -6870,7 +6871,7 @@ Page Product List Mr
 
 .btn-circle-box {
 	display: inline-block;
-    margin: 15px 0;
+	margin: 15px 0;
 	vertical-align: middle;
 }
 
@@ -10161,7 +10162,7 @@ span.click-button {
 
 .item-product-loadmore .item-product-info {
 	margin: 0;
-    padding: 25px 0;
+	padding: 25px 0;
 	text-align: left;
 }
 
@@ -10197,7 +10198,7 @@ span.click-button {
 .item-product.item-product-loadmore {
 	background: #fff none repeat scroll 0 0;
 	/*	box-shadow: 1px 3px 2px 0 rgba(0, 0, 0, 0.1);*/
-/*	margin: 0 -5px 20px;*/
+	/*	margin: 0 -5px 20px;*/
 }
 
 .product-list-filter .list-product {
